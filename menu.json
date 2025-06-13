@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Pizza Margherita",
+        "description": "Tomate, mozzarella, basilic frais, origan",
+        "price": 12.50,
+        "image": "photos/pizza.webp"
+    },
+    {
+        "id": 2,
+        "name": "Tacos Poulet",
+        "description": "Poulet grillé, salade iceberg, tomates cerises, cheddar, sauce algérienne",
+        "price": 8.00,
+        "image": "photos/tacos.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Salade César",
+        "description": "Salade romaine, parmesan AOP, croûtons maison, anchois, sauce césar",
+        "price": 9.50,
+        "image": "photos/salade.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Burger Classic",
+        "description": "Steak haché 180g, cheddar affiné, salade roquette, tomate, cornichons, sauce barbecue",
+        "price": 11.00,
+        "image": "photos/burger.webp"
+    },
+    {
+        "id": 5,
+        "name": "Pâtes Carbonara",
+        "description": "Pâtes fraîches, lardons fumés, crème fraîche, parmesan râpé, œuf, poivre noir",
+        "price": 10.50,
+        "image": "photos/pates.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Wrap Végétarien",
+        "description": "Tortilla, houmous, avocat, concombre, tomates séchées, roquette, graines de tournesol",
+        "price": 7.50,
+        "image": "photos/wrap.webp"
+    },
+    {
+        "id": 7,
+        "name": "Fish & Chips",
+        "description": "Filet de cabillaud pané, frites maison, petits pois, sauce tartare, citron",
+        "price": 13.00,
+        "image": "photos/fish.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Soupe à l'oignon",
+        "description": "Soupe traditionnelle à l'oignon gratinée au fromage, servie avec croûtons",
+        "price": 6.00,
+        "image": "photos/soupe.jpg"
+    }
+]

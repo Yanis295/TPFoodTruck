@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini Food Truck</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1 id="title">Mini Food Truck - Menu</h1>
+	
+	<div id="toast-container"></div>
+	
+	<div id="orders-tracking" class="orders-section">
+		<div class="orders-header">
+			<h2>Suivi de vos commandes</h2>
+			<div class="orders-info">
+				<span id="orders-count">0/5 commandes en cours</span>
+				<button id="clear-all-btn" class="btn btn-clear">Tout effacer</button>
+			</div>
+		</div>
+		<div id="orders-list"></div>
+	</div>
+	
+	<div id="cart-section" class="cart-section">
+		<h2>Panier</h2>
+		<div id="cart-items"></div>
+		<div id="cart-total" class="cart-total">Total: 0.00 €</div>
+		<button id="order-btn" class="btn btn-order" disabled>Commander</button>
+	</div>
+	
+	<div id="loading">Chargement du menu...</div>
+	<div id="menu-container" class="menu-container"></div>
+	
+	<div id="order-modal" class="modal">
+		<div class="modal-content">
+			<h2>Récapitulatif de votre commande</h2>
+			<div id="order-summary"></div>
+			<div id="order-totals" class="order-totals"></div>
+			<div class="modal-actions">
+				<button id="cancel-order" class="btn btn-cancel">Annuler</button>
+				<button id="validate-order" class="btn btn-validate">Valider la commande</button>
+			</div>
+		</div>
+	</div>
+	
+	<div id="delivery-popup" class="delivery-popup">
+		<div class="delivery-popup-content">
+			<h2>🎉 Commande livrée ! 🎉</h2>
+			<div class="vomit-emoji">🤮</div>
+			<p><strong>Oups !</strong> C'est dégueulasse heinnn...</p>
+			<p>Recommande histoire que je te vole une deuxième fois.</p>
+			<button id="close-delivery-popup">Fermer</button>
+		</div>
+	</div>
+	<script src="main.js" type="module"></script>
+</body>
+</html>
